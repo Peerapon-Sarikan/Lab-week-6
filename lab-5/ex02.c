@@ -21,6 +21,5 @@ int main()
         printf("%d ", original[i]);
     }
     printf("\n");
-
     return 0;
 }
