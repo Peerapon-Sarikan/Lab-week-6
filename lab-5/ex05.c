@@ -13,10 +13,12 @@ int main()
 smallest = largest = value[0];
  for(i = 0; i < 8; i++) 
  {
-        if (value[i] < smallest) {
+        if (value[i] < smallest) 
+        {
             smallest = value[i];
         }
-        if (value[i] > largest) {
+        if (value[i] > largest) 
+        {
             largest = value[i];
         }
     }
